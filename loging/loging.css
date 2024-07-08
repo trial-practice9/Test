@@ -12,6 +12,7 @@ body {
   width: 100%;
   place-items: center;
   background: #d3e9db;
+  padding:7px;
 }
 ::selection {
   background: #07bd3e;
