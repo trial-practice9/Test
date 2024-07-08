@@ -1,0 +1,416 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Trirong", serif;
+}
+
+/* nav menu */
+
+nav{
+    background: #050303;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;   
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    
+  }
+  
+  
+  
+  label.logo{ 
+    
+    color: white;
+    font-size: 36px;
+    line-height: 80px;
+    padding: 0 90px;
+    font-weight: bold; 
+    text-transform: uppercase;
+    
+    
+  }
+  
+  label.logo:hover{
+    color: transparent;
+   background-image: url(header.jpg);
+   background-size: cover;
+   background-position: bottom;
+   background-clip: text;
+   -webkit-background-clip: text;
+   
+  }
+  
+  
+  
+  
+  nav ul{
+    float: right;
+    margin-right: 20px;
+    
+  }
+  
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  
+  nav ul li a:hover{
+    background: #166906;
+    transition: .5s;
+  }
+  
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+ .container{
+    height: 100%;
+    padding: 110px 0;
+    color: #166906;
+   
+ } 
+  
+
+.container h1{
+    
+    color: #166906;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  details{
+    margin: 5px 220px;
+    background-color: #aad88c;
+    color: #166906;
+    font-size: 20px;
+    cursor: pointer;
+    
+  }
+  
+  summary {
+    padding: .4em 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+    transition: height 1s ease;
+    border: .5px solid #0a0a0a;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary:after{
+    content: "\002B";
+    font-weight: bold;
+  }
+  
+  details[open] summary {
+      border: 1px solid #166906;
+      margin-bottom: .5em;
+  }
+  
+  details[open] summary:after{
+    content: "\00D7";
+    font-weight: bold;
+  }
+  
+  details[open] div{
+    padding: .5em 1em;
+  
+  }
+
+
+/* footer degine*/
+footer{
+    width: 100%;  
+    background-color: #030202;
+    /*background: linear-gradient(to right, #00093c, #2d0b00);*/
+    color: #fff;
+    padding: 70px 0 10px;
+    border-top-left-radius: 125px;
+    font-size: 15px;
+    line-height: 15px;
+    
+  }
+  .row1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  
+  .col p{
+    color: #c5bdbd;
+  }
+  
+  
+  .footer-logo{
+    width: 85px; 
+    
+      
+    
+  }
+  
+  .footer-logo2{
+    width: 130px; 
+    padding-bottom: 10px;
+    padding-left: 40px;
+   
+  
+    
+  }
+  .coll{
+    flex-basis: 20%;
+    padding: 5px;
+  }
+  
+  .coll p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #c5bdbd;
+  
+  }
+  .col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 15px 0;
+  }
+  .col ul li{
+    list-style: none;    
+    margin-bottom: 12px;
+  }
+  .col ul li a, .col p a{
+    text-decoration: none;
+    color: #c5bdbd;
+   
+  }
+  
+  
+  
+  
+  
+  .social-icons .fa-brands{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+    
+  }
+  
+  .social-icons a:nth-child(1):hover i , .icon a:nth-child(1):hover i{
+    color: #fff;
+    background-color: #316ff6;
+  }
+  
+  .social-icons a:nth-child(2):hover i, .icon a:nth-child(4):hover i{
+    color: #fff;
+    background-color: #29c909;
+  }
+  
+  .social-icons a:nth-child(4):hover i, .icon a:nth-child(3):hover i{
+    background-color: #fff;
+    color: #1da1f2;
+   
+  }
+  
+  .social-icons a:nth-child(3):hover i, .icon a:nth-child(2):hover i{
+    color: #fff;
+    background-color: #E1306c;
+    
+  }
+  
+  .social-icons a:nth-child(5):hover i, .icon a:nth-child(5):hover i{
+    color: #fff;
+    background-color: #0077b5;
+    
+  }
+  
+  .social-icons a:nth-child(6):hover i, .icon a:nth-child(6):hover i{
+    color: #fff;
+    background-color: #0088cc;
+    
+  }
+  
+  hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 15px auto;
+  }
+  .copyright{
+    text-align: center;
+  }
+  .underline{
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+  }
+  .underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+  }
+  
+  @keyframes moving{
+      0%{
+          left: -20px;
+      }
+      100%{
+          left: 100%;
+      }
+  }
+  
+  /* footer degine*/
+
+  
+@media(max-width:991px){
+
+    label.logo{
+      font-size: 25px;
+      padding-left: 30px;    
+    } 
+  
+    nav ul li a{
+      font-size: 16px;
+    }
+
+    footer{
+        bottom: unset;
+    }
+    .row1{
+        flex-direction: column;
+    }
+    .col{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .coll{
+      flex-direction: column;}
+    
+    .col:nth-child(2), .col:nth-child(3){
+        flex-direction: column;
+    }
+
+    details{
+        margin: 5px 50px;
+        background-color: #aad88c;
+        color: #166906;
+        font-size: 24px;
+        
+      }
+}
+
+
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+   
+  }
+
+
+  label.logo{
+    font-size: 25px;
+    
+    padding: 0 25px;
+  }
+
+  nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background:#0a0a0a;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  
+  nav ul li a{
+    font-size: 20px;
+  }
+
+  nav ul li a:hover{   
+    background-color:  #166906;
+    padding: 7px 13px;
+    border-radius: 3px;
+  }
+
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+  details{
+    margin: 5px 40px;
+    background-color: #aad88c;
+    color: #166906;
+    font-size: 20px;
+    
+  }
+
+}
+
+@media (max-width: 400px){ 
+
+details{
+    margin: 5px 10px;
+    background-color: #aad88c;
+    color: #166906;
+    font-size: 17px;
+    
+  }
+}
